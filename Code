@@ -15,8 +15,8 @@ NodeMCU, DHT11, RTC_DS3231. Actuators included are servo motor and LED. Start by
 #define dht_dpin 0  //Declaring DHT pin
 #define FIREBASE_HOST "team2-temp.firebaseio.com" //Setting up Firebase host
 #define FIREBASE_AUTH "nUoLU9eTp165NpFD07F3rXAfPp52H2mCIRy5uUqa" //Authentication code for the firebase project
-#define WIFI_SSID "Ookosoft" //WiFI network name NodeMCU will connect to 
-#define WIFI_PASSWORD "87654321" //WiFI password
+#define WIFI_SSID "YourWiFi ID" //WiFI network name NodeMCU will connect to 
+#define WIFI_PASSWORD "YourWiFi Password" //WiFI password
 
 int servoPin = 5; // Declaring the Servo pin
 
